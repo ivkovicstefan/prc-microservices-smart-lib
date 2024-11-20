@@ -7,12 +7,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{88EE8F59-35B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6AD42871-C6F9-4E0C-BB13-5DBFDBCF165F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.API", "src\Services\User.API\User.API\User.API.csproj", "{E8B57526-3CEB-4E4A-B176-26714366247F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8B57526-3CEB-4E4A-B176-26714366247F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B57526-3CEB-4E4A-B176-26714366247F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B57526-3CEB-4E4A-B176-26714366247F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B57526-3CEB-4E4A-B176-26714366247F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6AD42871-C6F9-4E0C-BB13-5DBFDBCF165F} = {88EE8F59-35B8-43F7-AD7D-9468A4B7F15E}
+		{E8B57526-3CEB-4E4A-B176-26714366247F} = {6AD42871-C6F9-4E0C-BB13-5DBFDBCF165F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78A59DC1-A971-486C-B2E1-9D9A4E2759B4}
